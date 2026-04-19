@@ -26,6 +26,7 @@ def product_list() -> list[dict]:
     ]
     yield product_list
 
+
 @pytest.mark.parametrize(
     "today_date, expected", [
         (
